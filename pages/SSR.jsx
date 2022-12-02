@@ -1,7 +1,7 @@
 function SSR({ donos }) {
     return (
         <div>
-            <h1>Aprendendo NextJS - CSR</h1>
+            <h1>Trabalho Next.js - CSR</h1>
             <table>
                 <thead>
                     <tr>
@@ -13,7 +13,7 @@ function SSR({ donos }) {
                 </thead>
                 <tbody>
                     {
-                        predios.map(obj => (
+                        donos.map(obj => (
                             <tr key={obj.codigo}>
                                 <td>{obj.codigo}</td>
                                 <td>{obj.nome}</td>
